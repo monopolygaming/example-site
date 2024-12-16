@@ -6,6 +6,7 @@ html {
 
 #container {
     width: 900px;
+    height: 755px;
     margin: auto;
 }
 
@@ -39,10 +40,6 @@ hr {
     border: 1px solid;
 }
 
-#main {
-    margin-bottom: 77%;
-}
-
 #main-content {
     width: 650px;
     height: 650px;
@@ -62,7 +59,8 @@ hr {
 }
 
 #footer {
-    clear: both;
+    margin: auto;
+    width: 888px;
     padding: 5px;
     border: 1px white solid;
 }
