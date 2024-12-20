@@ -40,27 +40,29 @@ hr {
     border: 1px solid;
 }
 
+#main {
+    display: flex;
+}
+
 #main-content {
     width: 650px;
     height: 650px;
     padding: 5px;
     border: 1px white solid;
-    float: left;
     overflow: auto;
 }
 
 #other-content {
+    margin-left: 17px;
     width: 210px;
     height: 650px;
     padding: 5px;
     border: 1px white solid;
-    float: right;
     overflow: auto;
 }
 
 #footer {
-    margin: auto;
-    width: 888px;
+    margin-top: 15px;
     padding: 5px;
     border: 1px white solid;
 }
